@@ -1,0 +1,29 @@
+{
+  "id": "mihomoManager",
+  "name": "mihomoManager",
+  "capabilities": [
+    "dankbar-widget",
+    "control-center"
+  ],
+  "category": "utilities",
+  "repo": "https://github.com/lankong0522/dmsPlugin_mihomoManager",
+  "author": "lankong0522",
+  "description": "Manage Mihomo proxy nodes, TUN mode, connection status, and per-application proxy routing from DMS.",
+  "dependencies": [
+    "mihomo",
+    "python3",
+    "curl",
+    "bash",
+    "iproute2",
+    "sed",
+    "systemd"
+  ],
+  "compositors": [
+    "niri"
+  ],
+  "screenshot": "https://raw.githubusercontent.com/lankong0522/dmsPlugin_mihomoManager/main/preview.png",
+  "distro": [
+    "arch"
+  ]
+}
+
